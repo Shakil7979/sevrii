@@ -1,20 +1,11 @@
 $(document).ready(function(){
 	// Mobile Menu
-	// $('.logo a i').click(function(){
-	// 	$('.menu ul').slideToggle(1000);
+	$('.mobile_bars').click(function(){
+		$('.menu').slideToggle();
 
-	// 	return false
-	// });
-
-	// Banner Carousel
-	// $('.banner_carousel').owlCarousel({
-	// 	items:1,
-	// 	loop:true,
-	// 	nav:true,
-	// 	dots:true,
-	// 	autoplay:true,
-	// });
-
+		return false
+	});
+ 
 
 
 

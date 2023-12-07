@@ -1,4 +1,4 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&display=swap'); 
 
 html{
 	font-size: 62.5%;
@@ -6,6 +6,7 @@ html{
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
+	font-family: 'Nunito', sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -19,14 +20,269 @@ ul{
 ul li a,a{
 	text-decoration: none;
 }
-/*======================  Start Page  ======================*/
+
+/*********************************/
+/*********** Header CSS *********/
+/*******************************/
+
+.header_area {
+	position: absolute;
+	width: 100%;
+	padding: 17px 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu ul li a {
+	color: var(--brand-on-bg-brand-primary, #E3FFFE);
+	text-align: center;
+	font-family: Nunito;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.menu ul li a:hover{
+	color: #30CF7C;
+}
+
+.menu ul {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.registration_btn {
+	border-radius: 8px;
+	border: 1px solid var(--cta-bg-cta-primary-default, #30CF7C);
+	padding: 16px 24px; 
+	font-family: 'Mulish', sans-serif;
+}
+
+.registration_btn:hover {
+	background: var(--cta-bg-cta-primary-default, #30CF7C);
+	color: #fff !important;
+	border: 1px solid transparent;
+}
+
+.sube_btn {
+	border-radius: 8px;
+	background: var(--cta-bg-cta-primary-default, #30CF7C);
+	padding: 16px 24px;
+	border: 1px solid transparent;
+}
+
+.sube_btn:hover{
+	border: 1px solid var(--cta-bg-cta-primary-default, #30CF7C);
+	color: #fff !important;
+	background: transparent;
+}
 
 
 
+/*********************************/
+/*********** Banner CSS *********/
+/*******************************/
+
+.banner_area{
+	background: url(../images/Hero.png) no-repeat scroll center center / 100% 100%;
+}
+
+.banner {
+	max-width: 512px;
+	width: 100%;
+	padding: 166px 0 261px 0;
+}
+
+.banner h2 {
+	color: var(--primary-color-bg-primary, #FCFCFC); 
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 64px;
+}
+
+.banner h2 span{
+	color: #30CF7C;  
+}
+
+.banner p {
+	color: var(--primary-color-bg-primary, #FCFCFC); 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-top: 16px;
+}
+
+
+/*********************************/
+/*********** Map CSS *********/
+/*******************************/
+
+
+.map_area {
+	padding: 135px 0;
+	background: var(--brand-on-bg-brand-primary, #E3FFFE);
+}
+
+.maps {
+	display: flex;
+	align-items: center;
+	gap: 104px;
+	flex-wrap: wrap;
+}
+
+.map_img{
+	flex: 0 0 calc(60% - 52px) ; 
+}
+
+.maps_content{
+	flex: 0 0 calc(40% - 52px) ; 
+}
+
+.maps_content h4 {
+	color: #006C6B; 
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.maps_content p {
+	color: #002E2D; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 24px;
+}
+
+.btn_1 {
+	color: var(--cta-on-bg-cta-tertiary-default, #002E2D);
+	text-align: center; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border-bottom: 3px solid #30CF7C;
+	position: relative;
+	transition: 0.5s;
+}
+
+.btn_1 i {
+	position: absolute;
+	top: 4px;
+	right: -12px;
+	transition: 0.5s;
+}
+
+.btn_1:hover i { 
+	right: -16px;
+	transition: 0.5s;
+}
+
+.btn_1:hover{ 
+	color: #006C6B;
+	transition: 0.5s;
+}
+
+.map_img img {
+	width: 100%;
+}
+
+
+/*********************************/
+/*********** Footer CSS *********/
+/*******************************/
+
+.footer_area{
+	padding: 112px 0 32px 0;
+	background: var(--brand-on-bg-brand-secondary-content, #002E2D);
+}
+
+.footer{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.footer_menu {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	justify-content: center;
+	margin: 24px 0;
+}
+
+.footer_menu li a {
+	color: #FFF; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer_social {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	align-items: center;
+}
+
+.footer_social li a i {
+	color: #fff;
+	font-size: 24px;
+}
+
+.footer_copy_left a,
+.footer_copy_left ul li p,
+.footer_copy_left ul li a {
+	color: #E3FFFE; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	transition: 0.3s;
+}
+
+.footer_copy_left a:hover,  
+.footer_copy_left ul li a:hover {
+	opacity: 0.83;
+} 
+
+.footer_copy_left {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer_copy_left ul {
+	display: flex;
+	gap: 24px;
+}
 
 
 
+/*********************************/
+/*********** Header CSS *********/
+/*******************************/
+.mobile_bars{
+	display: none;
+}
 
-/*======================  End Page  ======================*/
+
+/* 
+font-family: 'Mulish', sans-serif;
+
+font-family: 'Nunito', sans-serif;
+ */
+
 
 
