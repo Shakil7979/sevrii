@@ -22,7 +22,7 @@
     }
     .menu ul {
         flex-direction: column;
-        background: #006B6A;
+        background: #002E2D;
         width: 100%;
         padding: 35px 0;
     }
@@ -33,20 +33,25 @@
         display: none;
     }
     .banner_area {
-        background: url(../images/Hero.png) no-repeat scroll center center / cover;
-    }
+        background: url(../images/mobile_hero.png) no-repeat scroll center center / cover;
+    } 
     .banner {
-        max-width: 478px; 
+        max-width: 100%;
+    }
+    .banner h2 { 
+        font-size: 53px; 
     }
     .maps {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse; 
+        gap: 32px; 
+    }
+    .menu_icon {
+        display: block;
     }
 }
 
 @media all and (max-width: 767px){
-    .banner_area {
-        background: url(../images/mobile_hero.png) no-repeat scroll center center / cover;
-    } 
+
     .sube_btn,
     .registration_btn { 
         padding: 10px 24px; 
@@ -64,13 +69,13 @@
         font-size: 16px; 
     }
     .map_area {
-        padding: 48px 0; 
+        padding: 48px 0 17px 0;
     }
     .footer_area {
         padding: 112px 0; 
     }
-    .footer_copy_left { 
-        flex-direction: column;
+    .footer_copy_left {
+        flex-direction: column-reverse;
         gap: 24px;
     }
     .footer_copy_left ul {
