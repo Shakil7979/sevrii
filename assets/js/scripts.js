@@ -12,6 +12,16 @@ $(document).ready(function(){
 		});
 	});
 	
+
+	$('.search_carousel').owlCarousel({
+		items: 11,
+		loop:true,
+		margin:14,
+		dots: false,
+		nav:true,
+		autoplay:false,
+		navText: ["","<img src='assets/images/search/arrow.png'>"] 
+	});
  
 
 

@@ -271,8 +271,9 @@ ul li a,a{
 
 
 /*********************************/
-/*********** Header CSS *********/
+/*********** Mobile CSS *********/
 /*******************************/
+
 .mobile_bars{
 	display: none;
 }
@@ -349,6 +350,292 @@ ul li a,a{
 }
 
 
+
+
+/*********************************/
+/*********** Search CSS *********/
+/*******************************/
+
+.search_area {
+	padding: 48px 0 64px 0;
+}
+
+.search_input input {
+	padding: 16px 12px 16px 32px;
+	border-radius: 8px;
+	border: 1px solid var(--cta-on-bg-cta-secondary-default, #BFCBC5);
+	overflow: hidden;
+	color: var(--brand-on-bg-brand-tertiary, #99ABAB);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-family: Nunito;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 100%;
+}
+
+.search_input {
+	max-width: 298px;
+	width: 100%;
+	position: relative;
+}
+
+.search_input img {
+	width: 16px;
+	position: absolute;
+	left: 12px;
+	top: 19px;
+}
+
+.btn_2 {
+	border-radius: 8px;
+	background: var(--cta-bg-cta-primary-default, #30CF7C);
+	padding: 16px 24px;
+	color: var(--cta-on-bg-cta-primary-default, #003117);
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border: none;
+}
+
+.btn_3 {
+	padding: 16px 16px 16px 12px;
+	border-radius: 8px;
+	border: 1px solid var(--cta-on-bg-cta-secondary-default, #BFCBC5);
+	color: var(--cta-on-bg-cta-primary-default, #003117);
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border: none;
+}
+
+.search_box {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+	margin-bottom: 32px;
+} 
+
+.search_slide p {
+	color: var(--brand-on-bg-brand-tertiary, #99ABAB);
+ 
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 4px;
+}
+
+.search_slide img {
+	width: 24px !important;
+	margin: 0 auto;
+}
+
+.search_slide {
+	text-align: center;
+}
+
+.search_carousel{
+	position: relative;
+}
+
+.search_carousel .owl-next {
+	position: absolute;
+	right: -10px;
+	bottom: 38px;
+	z-index: 99;
+}
+
+.owl-next:hover {
+	background: transparent !important;
+}
+
+
+
+
+/*********************************/
+/*********** Service CSS *********/
+/*******************************/
+
+
+.service_section_title h3 {
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.service_section_title p {
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.service_section_title{
+	margin-bottom: 32px;
+}
+
+.single_service {
+	border-radius: 12px;
+	border: 1px solid var(--primary-color-on-bg-primary-icon, #F29727);
+	background: var(--primary-color-bg-primary, #FCFCFC);
+}
+
+.service_header {
+	margin: 8px 0;
+	padding: 0 8px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 8px;
+}
+
+.service_title h4 {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.service_title p {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.btn_4 {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border-radius: 13.626px;
+	border: 1.703px solid #A35C05;
+	background: var(--primary-color-on-bg-primary-icon, #F29727);
+	box-shadow: 0px 3.406px 0px 0px #A35C05;
+	padding: 2px 4px;
+}
+
+.service_title_header {
+	display: flex;
+	align-items: flex-start;
+	gap: 4px;
+}
+
+.service_image img {
+	width: 100%;
+}
+
+.service_rating i {
+	color: #F29727;
+}
+
+.service_info {
+	padding: 8px 12px;
+}
+
+.service_rating p {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+  
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.service_info h3 {
+	overflow: hidden;
+	color: var(--primary-color-on-bg-primary-title, #006C6B);
+	text-overflow: ellipsis; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 8px;
+}
+
+.service_info p {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+ 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 4px 0;
+}
+
+
+.service_info span {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+ 
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.service_area {
+	margin-bottom: 48px;
+}
+
+.service_rating {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.service_price p {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+ 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.service_price {
+	display: flex;
+	align-items: center;
+	gap: 4px; 
+	margin-top: 8px;
+}
+
+.service_price h3 {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+
+
+/*********************************/
+/*********** Search CSS *********/
+/*******************************/
 
 
 /* 
