@@ -22,6 +22,16 @@ $(document).ready(function(){
 		autoplay:false,
 		navText: ["","<img src='assets/images/search/arrow.png'>"] 
 	});
+
+	 
+	$('.ideal_carousel').owlCarousel({
+		items:1,
+		loop:true,
+		nav:false,
+		dots:true,
+		margin:20,
+		autoplay:true, 
+	});
  
 
 

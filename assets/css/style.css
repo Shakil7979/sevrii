@@ -721,6 +721,15 @@ ul li a,a{
 	left: 0;
 }
 
+.ideal_carousel .owl-dot span {
+	width: 77px !important;
+	background: #99ABAB !important;
+}
+
+.ideal_carousel .owl-dot.active span { 
+	background: #30CF7C !important;
+}
+
 
 /*********************************/
 /*********** Search CSS *********/
