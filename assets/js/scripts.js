@@ -32,6 +32,16 @@ $(document).ready(function(){
 		margin:20,
 		autoplay:true, 
 	});
+
+	 
+	$('.service_carousel_main').owlCarousel({
+		items:3.9,
+		loop:true,
+		nav:false,
+		dots:false,
+		margin:20,
+		autoplay:true, 
+	});
  
 
 
