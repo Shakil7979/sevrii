@@ -20,7 +20,18 @@ $(document).ready(function(){
 		dots: false,
 		nav:true,
 		autoplay:false,
-		navText: ["","<img src='assets/images/search/arrow.png'>"] 
+		navText: ["","<img src='assets/images/search/arrow.png'>"] ,
+		responsive:{
+			0:{
+			  items:5
+			},
+			450:{
+				items: 5,
+			},
+			700:{
+				items: 11,
+			}
+		  }
 	});
 
 	 
@@ -29,6 +40,14 @@ $(document).ready(function(){
 		loop:true,
 		nav:false,
 		dots:true,
+		margin:20,
+		autoplay:true, 
+	});
+	$('.service_mobile_carousel').owlCarousel({
+		items:1.5,
+		loop:true,
+		nav:false,
+		dots:false,
 		margin:20,
 		autoplay:true, 
 	});

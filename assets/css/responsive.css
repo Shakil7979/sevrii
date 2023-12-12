@@ -48,13 +48,49 @@
     .menu_icon {
         display: block;
     }
+    .ideal_left_img img { 
+        display: none;
+    }
 }
 
-@media all and (max-width: 767px){
-
+@media all and (max-width: 767px){ 
+    .search_area {
+        padding: 25px 0;
+    }
+    .service_carousel_box {
+        padding-left: 24px;
+    }
+    .service_caraousel_left {
+        display: none;
+    }
+    .ideal_left_img img { 
+        display: none;
+    }
+    .mobile_view{
+        display: block;
+    }
+    .service_title_header img {
+        width: 24px !important;
+    }
+    .desktop_view{
+        display: none;
+    }
+    .search_input {
+        max-width: 100%; 
+    } 
+    .search_btn_1 {
+        width: 100%;
+    } 
+    .second_search button span,
+    .first_search{
+        display: none;
+    }
     .sube_btn,
     .registration_btn { 
         padding: 10px 24px; 
+    }
+    .search_input { 
+        flex: 0 0 88%;
     }
     .banner {
         max-width: 512px;
