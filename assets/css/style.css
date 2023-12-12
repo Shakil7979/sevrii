@@ -493,6 +493,7 @@ ul li a,a{
 	border-radius: 12px;
 	border: 1px solid var(--primary-color-on-bg-primary-icon, #F29727);
 	background: var(--primary-color-bg-primary, #FCFCFC);
+	margin-bottom: 16px;
 }
 
 .service_header {
@@ -631,6 +632,94 @@ ul li a,a{
 	line-height: normal;
 }
 
+.service_image a img {
+	width: 25px;
+}
+
+.service_image {
+	position: relative;
+}
+
+.service_image a {
+	position: absolute;
+	right: 15px;
+	top: 5px;
+}
+
+.service_btn{
+	margin-top: 32px;
+}
+
+.service_btn a {
+	border-radius: 8px;
+	padding: 16px 12px 16px 16px; 
+	border: 1px solid var(--cta-on-bg-cta-secondary-default, #BFCBC5);
+}
+
+.btn_5{
+	color: #FFF;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 2px 4px;
+	border-radius: 13.626px;
+	border: 1.703px solid #006282;
+	background: var(--complementary-bg-complementary-n-1, #09C);
+	box-shadow: 0px 3.406px 0px 0px #006282;
+}
+
+
+/*********************************/
+/*********** Ideal CSS *********/
+/*******************************/
+
+.ideal_area{
+	background: url(../images/ideal/bg.png) no-repeat scroll center center / cover;
+	margin-bottom: 98px;
+	position: relative;
+}
+
+.ideal_single h3 {
+	color: var(--primary-color-on-bg-primary-title, #006C6B);
+	text-align: center; 
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.ideal_single p {
+	color: var(--primary-color-on-bg-primary-content, #002E2D);
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	margin-top: 4px;
+	font-weight: 400;
+	line-height: normal;
+	max-width: 469px;
+	width: 100%;
+	margin: 4px auto 0 auto;
+}
+
+.ideal_btn {
+	text-align: center;
+	margin-top: 24px;
+}
+
+.ideal_box{
+	position: relative;
+	padding: 220px 0 187px 0;
+}
+
+.ideal_left_img img {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	left: 0;
+}
 
 
 /*********************************/
