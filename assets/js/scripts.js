@@ -60,6 +60,14 @@ $(document).ready(function(){
 		dots:false,
 		margin:20,
 		autoplay:true, 
+		responsive:{
+			0:{
+			  items:1.5
+			}, 
+			767:{
+				items:3.9,
+			}
+		  }
 	});
  
 

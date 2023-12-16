@@ -57,6 +57,19 @@
     .search_area {
         padding: 25px 0;
     }
+    .package_img { 
+        display: none;
+    }
+    .single_package { 
+        height: inherit;
+        margin-bottom: 24px;
+    }
+    .service_carousel { 
+        margin-bottom: 48px;
+    }
+    .ideal_area { 
+        margin-bottom: 48px; 
+    }
     .service_carousel_box {
         padding-left: 24px;
     }
