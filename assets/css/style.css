@@ -860,6 +860,8 @@ ul li a,a{
 
 
 
+
+
 /*********************************/
 /*********** Service carousel CSS *********/
 /*******************************/
@@ -1319,6 +1321,10 @@ ul li a,a{
 	right: 0;
 	background: #fff;
 	height: 100%;
+}
+
+.search_carousel .owl-next { 
+	bottom: 38px; 
 }
 
 /* 
